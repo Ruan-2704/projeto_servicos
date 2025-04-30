@@ -465,6 +465,14 @@ footer.footer {
   margin-bottom: 10px;
   font-size: 16px;
   color: #94a3b8;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer-coluna h3::before {
+
+  display: inline-block;
 }
 
 .footer-coluna p, 
